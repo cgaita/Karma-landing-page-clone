@@ -16,7 +16,7 @@ div{
 .content{
 	padding: 0 15px;
 	margin: 0 auto;
-	width: 970px;
+	width: 58%;
 	min-width: 37.5rem;
 }
 /* Navigation Section */
@@ -25,6 +25,7 @@ div{
 	background-color: white;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }	
 .top-navigation > .content {
 	height: 4.375rem;
@@ -85,7 +86,52 @@ button {
 	display: block;
 	margin: 0 auto;
 }
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
 button:hover{
 	background-color: #d9400e;
 	cursor: pointer;
+}
+/*case section*/
+.cases{
+	background-color: white;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+.cases .content{
+	padding: none;
+	text-align: center;
+	float: center;
+	margin-top: 7.875rem;
+	color: #1d1e21;
+}
+.cases h2{
+	margin: 1.625rem 0 3.125rem;
+	font-size: 2.75rem;
+	font-weight: 300;
+
+}
+.cases .devices > li {
+	width: 33.3333333333%;
+	float: left;
+	list-style: none;
+}
+.cases .devices h3{
+	margin: 2.5rem 0px 1.875rem;
+	font-weight: 400;
+	font-size: 1.563rem;
+}
+.devices{
+	padding: 0;
 }
