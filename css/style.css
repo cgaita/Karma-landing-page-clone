@@ -13,6 +13,9 @@ body{
 div{
 	border: 1px solid Chocolate;
 }
+ul{
+	padding-left: 0px;
+}
 .content{
 	padding: 0 15px;
 	margin: 0 auto;
@@ -134,4 +137,43 @@ button:hover{
 }
 .devices{
 	padding: 0;
+}
+/*footer*/
+.social{
+	text-align: center;
+	background-color: white;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	padding: 0px;
+}
+.social hr{
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+h4{
+	font-weight: 400;
+}
+.social .icons > li{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #eaebec;
+	border-radius: 20px;
+	width: 2.5rem;
+	padding: 0.625rem 0px;
+	margin: 1.25rem 5px;
+	margin-top: 0px;
+}
+.twitter{
+	color: #55acee;
+}
+.facebook{
+	color: #4c66a4;
+}
+.instagram{
+	color: #3f729b;
+}
+h5{
+	color: #838994;
+	font-weight: 400;
 }
